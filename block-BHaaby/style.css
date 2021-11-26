@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* General */
+
+
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* Header */
+
+
+header {
+    background-color: rgb(249 97 21);
+    padding: 20px 0;
+}
+.navbar a{
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+/* Lists */
+
+.sec {
+    background-color: rgb(212 206 167);
+    padding: 32px 0;
+}
+.row {
+    flex: 0 1 30%;
+}
+.list {
+    padding: 0 60px;
+    height: 360px;
+    background-color: rgb(0 89 121);
+}
+.list li{
+    color: rgb(212 206 167);
+    font-size: 15px;
+    padding: 5px 0;
+}
+.l1 {
+    list-style-type: decimal;
+}
+.l2 {
+    list-style-type: disc;
+}
+.l3 li{
+    list-style-image: url("../block-BHaaby/assets/media/check-circle-solid.svg");
+    padding: 10px 0;   
+}
+.l1, .l2 , .l3 {
+    margin-top: 20px;
+}
+.sub-menu {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+
+
+/* Article Section */
+
+
+.a1 {
+    padding-top: 40px;
+}
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 0;
+    font-family: 'Cairo', sans-serif;
+}
+.a1 p{
+    font-size: 15px;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #252c22;
+    padding: 30px 0;
+}
